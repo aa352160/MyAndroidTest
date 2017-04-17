@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/ic_back_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请输入登录密码"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="红包金额"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_red_psw_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:text="88.00元"
+        android:textColor="#333333"
+        android:textSize="32sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_red_write_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_red_psw_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="确定"
+        android:textColor="#E52C4E"
+        android:textSize="17sp"
+        />
+</LinearLayout>

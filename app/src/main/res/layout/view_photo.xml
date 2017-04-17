@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_photo_one"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_photo_one"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_add_image1"
+            />
+
+        <ImageView
+            android:id="@+id/iv_close_one"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_photo_delete"
+            android:layout_alignTop="@+id/iv_photo_one"
+            android:layout_alignEnd="@+id/iv_photo_one" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_photo_two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:visibility="invisible"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_photo_two"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_add_image1"
+            />
+
+        <ImageView
+            android:id="@+id/iv_close_two"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_photo_delete"
+            android:layout_alignTop="@+id/iv_photo_two"
+            android:layout_alignEnd="@+id/iv_photo_two" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_photo_three"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:visibility="invisible"
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_photo_three"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_add_image1"
+            />
+
+        <ImageView
+            android:id="@+id/iv_close_three"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_photo_delete"
+            android:layout_alignTop="@+id/iv_photo_three"
+            android:layout_alignEnd="@+id/iv_photo_three" />
+    </RelativeLayout>
+
+</LinearLayout>
