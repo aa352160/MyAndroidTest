@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '25.0.3'
     defaultConfig {
         applicationId "com.example.pcdalao.mytest"
         minSdkVersion 16
@@ -25,6 +25,9 @@ android {
         }
     }
     sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/aidl']
+        }
         main.java.srcDirs += 'src/main/kotlin'
     }
 }
