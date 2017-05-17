@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.pcdalao.mytest.databinding.DatabindingActivity;
+import com.example.pcdalao.mytest.ninegridview.NineGridViewActivity;
 import com.google.gson.Gson;
 
 import java.util.Map;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,DatabindingActivity.class);
+                Intent intent=new Intent(MainActivity.this,NineGridViewActivity.class);
                 startActivity(intent);
             }
         });

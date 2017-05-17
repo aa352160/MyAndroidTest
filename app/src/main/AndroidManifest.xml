@@ -39,6 +39,10 @@
         <activity android:name=".databinding.Databinding2Activity"/>
         <activity android:name=".rxjava.UploadByRxjavaActivity">
         </activity>
+        <activity android:name=".ninegridview.NineGridViewActivity">
+        </activity>
+        <activity android:name=".ninegridview.ImagePreviewActivity">
+        </activity>
     </application>
 
 </manifest>
