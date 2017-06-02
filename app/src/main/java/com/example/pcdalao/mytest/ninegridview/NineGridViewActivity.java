@@ -3,7 +3,6 @@ package com.example.pcdalao.mytest.ninegridview;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.GridView;
 
 import com.example.pcdalao.mytest.R;
 
@@ -30,8 +29,8 @@ public class NineGridViewActivity extends AppCompatActivity {
         datas.add("");
         adapter=new NineGridViewListAdapter(this,datas);
 
-        GridView gridLayout=(GridView) findViewById(R.id.grid_view);
-        gridLayout.setAdapter(adapter);
+        NineGridImageView gridLayout=(NineGridImageView) findViewById(R.id.grid_view);
+        gridLayout.setData(datas);
     }
 
     @Override
