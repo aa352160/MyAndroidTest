@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.android.databinding.library.baseAdapters.BR;
+import com.example.pcdalao.mytest.BR;
 import com.example.pcdalao.mytest.R;
 
 public class DatabindingActivity extends AppCompatActivity {
 
-    private ActivityDatabindingBinding binding;
+    private com.example.pcdalao.mytest.databinding.ActivityDatabindingBinding binding;
     private ModleAdapter adapter;
 
     @Override
